@@ -1,0 +1,138 @@
+/*  Variables */
+
+:root{
+  --white: #FFFFFF;
+  --black: #000000;
+  --grey: #EAEAEA;
+
+
+}
+
+
+/*  Fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* @font-face {
+  font-family: "Cuprum";
+  src: local("Cuprum");
+  src: url(../fonts/cuprum.woff2) format("woff2");
+  src: url(../fonts/cuprum.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cuprum";
+  src: local("Cuprum");
+  src: url(../fonts/cuprumbold.woff2) format("woff2");
+  src: url(../fonts/cuprumbold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cuprum";
+  src: local("Cuprum");
+  src: url(../fonts/cuprumitalic.woff2) format("woff2");
+  src: url(../fonts/cuprumitalic.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Cuprum";
+  src: local("Cuprum");
+  src: url(../fonts/cuprumbolditalic.woff2) format("woff2");
+  src: url(../fonts/cuprumbolditalic.woff) format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: local("PT Sans");
+  src: url(../fonts/ptsans.woff2) format("woff2");
+  src: url(../fonts/ptsans.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: local("PT Sans");
+  src: url(../fonts/ptsansbold.woff2) format("woff2");
+  src: url(../fonts/ptsansbold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+} */
+
+
+/*  Globals  */
+
+body,header,footer,section,main,aside,nav,
+a,form,input,button,figure,figcaption,span,
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,img,textarea,
+*:after, *:before{
+  box-sizing: border-box;
+  border: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  outline: none;
+  list-style: none;
+}
+
+/* .page-body{
+  min-width: 960px;
+
+  font-family: "Cuprum", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--additional-blue);
+  background-color: var(--white);
+
+  min-height: 100%;
+  display: grid;
+  grid-template-rows:
+    min-content
+    1fr
+    min-content;
+    align-content: start;
+} */
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  display: block;
+  line-height: 45px;
+  width: 150px;
+  font: inherit;
+  text-align: center;
+  color: var(--white);
+  background-color: var();
+  border: none;
+  cursor: pointer;
+}
