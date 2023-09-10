@@ -84,7 +84,6 @@ h1,h2,h3,h4,h5,h6,p,ul,ol,li,img,textarea,
 
 /* .page-body{
   min-width: 960px;
-
   font-family: "Cuprum", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -92,7 +91,6 @@ h1,h2,h3,h4,h5,h6,p,ul,ol,li,img,textarea,
   line-height: 24px;
   color: var(--additional-blue);
   background-color: var(--white);
-
   min-height: 100%;
   display: grid;
   grid-template-rows:
