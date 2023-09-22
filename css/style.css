@@ -4,6 +4,7 @@
   --white: #FFFFFF;
   --black: #000000;
   --grey: #EAEAEA;
+  --yellow: #D6B600
 
 
 }
@@ -136,4 +137,19 @@ img{
   border: none;
   cursor: pointer;
 }
+
+/*  HEADER  */
+
+.main-header{
+  width: ;
+  height: 514px;
+  background-image: url(../img/start-image.png);
+  /* background: filter(brightness(75%); */
+  background-color: var(--black);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
 
